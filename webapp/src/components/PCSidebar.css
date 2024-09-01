@@ -1,0 +1,18 @@
+.vertical-navbar {
+  display: flex;
+  flex-direction: column;
+  width: 150px; /* Adjust the width as needed */
+  height: 100vh; /* Full viewport height */ /* Background color */
+}
+
+.vertical-navbar .navbar-nav {
+  flex-direction: column;
+}
+
+.vertical-navbar .nav-link {
+  padding: 1rem;
+}
+
+.vertical-navbar .nav-link:hover {
+  background-color: #e9ecef; /* Hover color */
+}
